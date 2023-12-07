@@ -1556,14 +1556,14 @@
                         <option value="">후기</option>
                     </select>
                     <div class="text_count">
-                        <input type="text" class="txt" placeholder="제목을 입력해주세요.">
-                        <p><span>0</span>/60</p>
+                        <input type="text" class="txt" placeholder="제목을 입력해주세요." id="input_counter01">
+                        <p><span id="text_counter01">0</span>/60</p>
                     </div>
                 </div>
                 <div class="text_area">
-                    <textarea placeholder="내용을 입력해 주세요."></textarea>
+                    <textarea placeholder="내용을 입력해 주세요." id="input_counter02"></textarea>
                     <div class="text_count">
-                        <p><span>0</span>/1000</p>
+                        <p><span id="text_counter02">0</span>/1000</p>
                     </div>                    
                 </div>
                 <div class="banner">
@@ -1596,9 +1596,9 @@
                     </div>
                 </div>
                 <div class="text_area">
-                    <textarea placeholder="답변을 등록해 주세요."></textarea>
+                    <textarea placeholder="답변을 등록해 주세요." id="input_counter03"></textarea>
                     <div class="text_count">
-                        <p><span>0</span>/1000</p>
+                        <p><span id="text_counter03">0</span>/1000</p>
                     </div>                    
                 </div>
             </div>
@@ -1641,6 +1641,59 @@
             </div>
         </div>
         <script>
+            document.addEventListener('DOMContentLoaded', function() {
+                function handleInputEvent(textInput, charCountDiv) {
+                    var text = textInput.value;
+                    var textLength = text.length;
+                    charCountDiv.textContent = textLength;
+                }
+
+                var textInput01 = document.getElementById('input_counter01');
+                var charCountDiv01 = document.getElementById('text_counter01');
+                var textInput02 = document.getElementById('input_counter02');
+                var charCountDiv02 = document.getElementById('text_counter02');
+                var textInput03 = document.getElementById('input_counter03');
+                var charCountDiv03 = document.getElementById('text_counter03');
+                
+                textInput01.addEventListener('input', function() {
+                    handleInputEvent(textInput01, charCountDiv01);
+                });
+
+                textInput02.addEventListener('input', function() {
+                    handleInputEvent(textInput02, charCountDiv02);
+                });
+
+                textInput03.addEventListener('input', function() {
+                    handleInputEvent(textInput03, charCountDiv03);
+                });
+            });
+
+            // document.addEventListener('DOMContentLoaded', function() {
+            //     var textInput01 = document.getElementById('input_counter01');
+            //     var charCountDiv01 = document.getElementById('text_counter01');
+            //     var textInput02 = document.getElementById('input_counter02');
+            //     var charCountDiv02 = document.getElementById('text_counter02');
+            //     var textInput03 = document.getElementById('input_counter03');
+            //     var charCountDiv03 = document.getElementById('text_counter03');
+            
+
+            //     textInput01.addEventListener('input', function() {
+            //     var text01 = textInput01.value;
+            //     var textLength01 = this.value.length;
+            //     charCountDiv01.textContent = textLength01;
+            //     });
+            //     textInput02.addEventListener('input', function() {
+            //     var text02 = textInput02.value;
+            //     var textLength02 = this.value.length;
+            //     charCountDiv02.textContent = textLength02;
+            //     });
+            //     textInput03.addEventListener('input', function() {
+            //     var text03 = textInput03.value;
+            //     var textLength03 = this.value.length;
+            //     charCountDiv03.textContent = textLength03;
+            //     });
+            // });
+
             function openModal(modalname) {
                 $("." + modalname).show();
                 $(".shadow").show();

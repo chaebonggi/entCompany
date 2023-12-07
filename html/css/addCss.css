@@ -3,8 +3,8 @@
 .sp_mod_talk01 .talk_box.no_data { background: #f4f4f4; } 
 .sp_mod_talk01 .talk_box.no_data .item { text-align: center; } 
 .sp_mod_talk01 .talk_box.no_data .item p::before { content: ''; display: block; width: 56px; height: 56px; margin: 0 auto 2rem; background: url(../images/no_data.png) no-repeat; } 
-.sp_mod_talk01 .talk_box.no_data .item p { margin-bottom: 4rem; color: #333333; font-size: 2.4rem; } 
-.sp_mod_talk01 .talk_box.no_data .item span { color: #888888; font-size: 1.8rem; } 
+.sp_mod_talk01 .talk_box.no_data .item p { margin-bottom: 4rem; color: #333333; font-size: 2.4rem; word-break: keep-all;} 
+.sp_mod_talk01 .talk_box.no_data .item span { color: #888888; font-size: 1.8rem; word-break: keep-all;} 
 .sp_mod_talk01 .cont_btn { display: flex; width: 180px; height: 50px; margin: 0 auto; color: #fff; font-size: 1.8rem; background: #35add4; border-radius: 10px; align-items: center; justify-content: center; text-align: center; } 
 .sp_mod_talk01 .btn { display: inline-flex; height: 40px; border: 1px solid #dddddd; align-items: center; justify-content: center; border-radius: 6px; box-sizing: border-box; } 
 .sp_mod_talk01 .btn_lg { width: 160px; } 
