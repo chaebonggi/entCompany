@@ -1458,6 +1458,7 @@
             </div>
         </div>
     </div>
+
     <div class="sp_mod_talk01 section_mg">
         <div class="new_cnt-container02">
             <h3>기업톡톡</h3>
@@ -1474,29 +1475,29 @@
                     <div class="item_top">
                         <span class="tag q">질문</span>
                         <p>위 기업에 대한 자세한 정보가 궁금합니다.</p>
-                        <a href="javascript:openModal('modal_02');" class="btn btn_style05">삭제</a>
+                        <a href="javascript:openModal('modal_03');" class="btn btn_sm btn_style05">삭제</a>
                     </div>
                     <div class="item_mid">
                         <p>실제 현직자 이야기나 복지에 대해서 자세한 내용은 어떻게 알 수 있을까요?</p>
                     </div>
                     <div class="item_bottom">
-                        <ul>
+                        <ul class="user_info">
                             <li>작성자 : <sapn class="user">000</sapn></li>
                             <li><span class="date">2023.10.30</span></li>
                         </ul>
-                        <a href="javascript:void(0);" class="btn btn_style01">의견(답변)쓰기</a>
+                        <a href="javascript:openModal('modal_02');" class="btn btn_lg btn_style01">의견(답변)쓰기</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item_top">
                         <span class="tag a">답변</span>
-                        <a href="javascript:openModal('modal_02');" class="btn btn_style05">삭제</a>
+                        <a href="javascript:openModal('modal_03');" class="btn btn_sm btn_style05">삭제</a>
                     </div>
                     <div class="item_mid">
                         <p>현재 해당 기업에 다니고 있습니다. 저한테 연락 주시면 자세하게 설명 드릴께요</p>
                     </div>
                     <div class="item_bottom">
-                        <ul>
+                        <ul class="user_info">
                             <li>작성자 : <sapn class="user">000</sapn></li>
                             <li><span class="date">2023.10.30</span></li>
                         </ul>
@@ -1506,29 +1507,29 @@
                     <div class="item_top">
                         <span class="tag q">질문</span>
                         <p>위 기업에 대한 자세한 정보가 궁금합니다.</p>
-                        <a href="javascript:openModal('modal_02');" class="btn btn_style05">삭제</a>
+                        <a href="javascript:openModal('modal_03');" class="btn btn_sm btn_style05">삭제</a>
                     </div>
                     <div class="item_mid">
                         <p>실제 현직자 이야기나 복지에 대해서 자세한 내용은 어떻게 알 수 있을까요?</p>
                     </div>
                     <div class="item_bottom">
-                        <ul>
+                        <ul class="user_info">
                             <li>작성자 : <sapn class="user">000</sapn></li>
                             <li><span class="date">2023.10.30</span></li>
                         </ul>
-                        <a href="javascript:void(0);" class="btn btn_style01">의견(답변)쓰기</a>
+                        <a href="javascript:openModal('modal_02');" class="btn btn_lg btn_style01">의견(답변)쓰기</a>
                     </div>
                 </div>
                 <div class="item">
                     <div class="item_top">
                         <span class="tag a">답변</span>
-                        <a href="javascript:openModal('modal_02');" class="btn btn_style05">삭제</a>
+                        <a href="javascript:openModal('modal_03');" class="btn btn_sm btn_style05">삭제</a>
                     </div>
                     <div class="item_mid">
                         <p>현재 해당 기업에 다니고 있습니다. 저한테 연락 주시면 자세하게 설명 드릴께요</p>
                     </div>
                     <div class="item_bottom">
-                        <ul>
+                        <ul class="user_info">
                             <li>작성자 : <sapn class="user">000</sapn></li>
                             <li><span class="date">2023.10.30</span></li>
                         </ul>
@@ -1544,7 +1545,7 @@
                 <p>등록하기</p>
             </div>
             <div class="pop_mid">
-                <ul>
+                <ul class="etc">
                     <li>기업의 복지, 근무환경 등 궁금한 내용을 입력해 주세요.</li>
                     <li>현직자의 생생한 근무 경험을 올려주시면 구직자들에게 많은 도움이 됩니다.</li>
                 </ul>
@@ -1571,13 +1572,45 @@
             </div>
             <div class="pop_bottom">
                 <div class="btn_wrap">
-                    <a href="javascript:void(0);" class="btn btn_style02" onclick="close_pop()">취소</a>
-                    <a href="javascript:void(0);" class="btn btn_style03">등록</a>
+                    <a href="javascript:void(0);" class="btn btn_md btn_style02" onclick="close_pop()">취소</a>
+                    <a href="javascript:void(0);" class="btn btn_md btn_style03">등록</a>
+                </div>
+            </div>
+        </div>
+        <div class="popup regn modal_02 w1080">
+            <div class="pop_top">
+                <h4>기업톡톡</h4>
+                <p>답변(의견) 등록하기</p>
+            </div>
+            <div class="pop_mid">
+                <ul class="user_info">
+                    <li>작성자 : <sapn class="user">000</sapn></li>
+                    <li><span class="date">2023.10.30</span></li>
+                </ul>
+                <div class="p_box">
+                    <div class="p_tit">
+                        <p>위 기업에 대한 자세한 정보가 궁금합니다.</p>
+                    </div>
+                    <div class="p_cont">
+                        <p>실제 현직자 이야기나 복지에 대해서 자세한 내용은 어떻게 알 수 있을까요?</p>
+                    </div>
+                </div>
+                <div class="text_area">
+                    <textarea placeholder="답변을 등록해 주세요."></textarea>
+                    <div class="text_count">
+                        <p><span>0</span>/1000</p>
+                    </div>                    
+                </div>
+            </div>
+            <div class="pop_bottom">
+                <div class="btn_wrap">
+                    <a href="javascript:void(0);" class="btn btn_md btn_style02" onclick="close_pop()">취소</a>
+                    <a href="javascript:void(0);" class="btn btn_md btn_style03">등록</a>
                 </div>
             </div>
         </div>
 
-        <div class="popup modal_02">
+        <div class="popup modal_03">
             <div class="pop_top">
                 <h4>질문을 삭제 하시겠습니까?</h4>
             </div>
@@ -1587,13 +1620,13 @@
             </div>
             <div class="pop_bottom">
                 <div class="btn_wrap">
-                    <a href="javascript:void(0);" class="btn btn_style04" onclick="close_pop()">취소</a>
-                    <a href="javascript:void(0);" class="btn btn_style05">확인</a>
+                    <a href="javascript:void(0);" class="btn btn_sm btn_style04" onclick="close_pop()">취소</a>
+                    <a href="javascript:void(0);" class="btn btn_sm btn_style05">확인</a>
                 </div>
             </div>
         </div>
 
-        <div class="popup modal_03">
+        <div class="popup modal_04">
             <div class="pop_top">
                 <h4>기업에 관련된 질문이나 후기를 등록해 주세요</h4>
             </div>
@@ -1603,7 +1636,7 @@
             </div>
             <div class="pop_bottom">
                 <div class="btn_wrap">
-                    <a href="javascript:void(0);" class="btn btn_style04" onclick="close_pop()">확인</a>
+                    <a href="javascript:void(0);" class="btn btn_sm btn_style04" onclick="close_pop()">확인</a>
                 </div>
             </div>
         </div>
@@ -1612,18 +1645,18 @@
                 $("." + modalname).show();
                 $(".shadow").show();
                 var offset = jQuery(document).scrollTop();
-                jQuery("body").css({
-                    "position": "fixed",
-                    "width": "100%",
-                    "top": -offset
-                });
+                // jQuery("body").css({
+                //     "position": "fixed",
+                //     "width": "100%",
+                //     "top": -offset
+                // });
             }
             function close_pop() {
                 var $popup = $('.popup:visible');                
                 $popup.hide();
                 $(".shadow").hide();
-                var offset = jQuery("body").offset().top;
-                jQuery("html,body").css("position", "static").scrollTop(-offset);
+                // var offset = jQuery("body").offset().top;
+                // jQuery("html,body").css("position", "static").scrollTop(-offset);
             };
         </script>
         <!-- //팝업  -->
