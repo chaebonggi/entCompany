@@ -1,0 +1,1862 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, maximum-scale=1.0, minimum-scale=1, user-scalable=yes,initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="https://www.jobaba.net//resource/bxslider/slick.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@5.4.5/css/swiper.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/billboard.js/3.1.2/billboard.min.css">
+    <link rel="stylesheet" href="css/pt-common.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/billboard.js@1.11.0-next.1/dist/billboard.pkgd.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/imgLiquid/0.9.944/js/imgLiquid-min.js" integrity="sha512-r4VzkuVP3meRHq9OT0J0TwErGgUs9tMV8P/RR9U8X/EDAaDxx+nwCrOq885oW3OPwp3YVRm6hDgngWRHynh1FA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@5.4.5/js/swiper.min.js"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script src="https://rendro.github.io/easy-pie-chart/javascripts/jquery.easy-pie-chart.js"></script>
+    <script src="https://www.jobaba.net//resource/bxslider/slick.js"></script>
+
+    <script src="js/pt-common.js"></script>
+</head>
+
+<body>
+    <div class="module-wrap com_mod_header new_com_mod_header sty02 not_fixed" id="summary">
+        <div class="cnt-container header clearfix">
+            <div class="logo imgCi"><img src="images/logo_smaple01.png" alt="경기도일자리재단"></div>
+            <div class="info fc_000">
+                <div class="info fc_000">
+                    <dl class="clearfix">
+                        <dt>업종</dt>
+                        <dd class="incCate">업종</dd>
+                        <dt>대표자</dt>
+                        <dd class="ceo">대표자</dd>
+                        <dt>기업형태</dt>
+                        <dd class="comForm">기업형태</dd>
+                    </dl>
+                    <div class="action fc_000 clearfix">
+                        <a href="javascript:void(0);" id="scrapYn" onclick="onCntNew();">관심기업 등록<i>♥</i></a>
+                        <a href="javascript:void(0);" id="goRecruit">공고 바로가기<i>→</i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="top_cert_text">
+                이노비즈/벤처기업/강소기업
+            </div>
+            <div id="iconArea">
+                <div class="biz_cate cate31 green"><i></i>
+                    <p>채용중</p>
+                    <div class="date">D - 7</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="m_com_mod_header" style="background: url(images/sp_top.png) no-repeat">
+        <div class="cnt-container">
+            <div class="logo_wrap">
+                <div class="logo imgCi"><img src="images/logo_smaple01.png" alt="경기도일자리재단"></div>
+                <p class="comName">㈜ 일자리재단</p>
+            </div>
+            <div class="action fc_000 clearfix">
+                <a href="javascript:void(0);" id="scrapYn" onclick="onCntNew();">관심기업 등록<i>♥</i></a>
+                <a href="javascript:void(0);" id="goRecruit">공고 바로가기<i>→</i></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="top"></div>
+
+    <div class="module-wrap com_mod_anchor sty03 new_com_mod_anchor">
+        <div class="cnt-container">
+            <ul>
+                <li><a href="#top" class="active" style="display: block;">기업정보</a></li>
+                <li><a href="#welfare" class="" style="display: block;">기업문화</a></li>
+                <li><a href="#recruit" class="" style="display: block;">기업채용</a></li>
+                <li><a href="#map" style="display: block;">기업위치</a></li>
+            </ul>
+            <!--
+			<div class="siteGo">사이트</div>
+			-->
+        </div>
+    </div>
+    <div class="module-wrap sp_rep_Img04" style="background: url(images/sp04_top.png) no-repeat">
+        <div class="new_cnt-container02">
+            <div class="txt">
+                <p class="subTit">성공을 여는 에너지<br>
+                    신재생에너지 발전 통합 운영관리 전문기업</p>
+                <h3 class="bigTit">대연 C&amp;I</h3>
+            </div>
+            <div class="img">
+                <img src="images/sp04_ci.png" alt="DAEYEON C&I">
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sp_mod_history04 section_mg">
+        <div class="new_cnt-container">
+            <h3 class="b_tit03">연혁</h3>
+            <div class="history_wrap">
+                <!--<div class="holder"></div>-->
+                <div id="history" class="history">
+                    <!--데이터 자동 생성-->
+                    <div class="item"><span>2021</span>
+                        <ul>
+                            <li>
+                                <div class="month">2021. 11.</div>
+                                <div class="event"><span>연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2021. 11.</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2021.11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2021.11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item"><span>2018</span>
+                        <ul>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item"><span>2018</span>
+                        <ul>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item"><span>2018</span>
+                        <ul>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                            <li>
+                                <div class="month">2018. 11</div>
+                                <div class="event"><span>연혁</span></div>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--//데이터 자동 생성-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="b_mod_cert section_pd bg_blue">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">기업 인증 및 특허</h3>
+            <div class="cert_wrap">
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/a_cert.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <p>특허명</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sp_mod_partners04 section_pd">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">기업과 함께하는 파트너사</h3>
+            <div class="b_part">
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo01.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo02.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo03.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo04.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo05.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo06.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo07.png" alt="">
+                    </div>
+                </div>
+                <div>
+                    <div class="item">
+                        <img src="images/a_logo07.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sp_mod_biz04 section_mg">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">주요사업 안내</h3>
+            <p class="b_subText">㈜대연씨앤아이는 태양광 발전용 접속함 및 모니터링 시스템의 공급과 ESS (Enegry Storage System) 분야의 전문 기업으로,<br>
+                1998년 설립되어 지난 20년간 끊임없는 기술 개발과 경영 혁신 활동을 통하여 신재생 에너지 분야의 기업 문화를 선도하고 있습니다.</p>
+            <div class="bizDiv">
+                <div class="item">
+                    <div class="img imgFill">
+                        <img src="images/sp04_biz01.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h4>태양광 모니터링 시스템</h4>
+                        <p>각 장비(인버터, 접속함, 기상관측 등)의
+                            실시간 데이터를 간편히 확인</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img imgFill">
+                        <img src="images/sp04_biz02.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h4>태양광 발전용 설비</h4>
+                        <p>여러 개의 태양 전지 모듈에서 발생된
+                            직류전력을 한군데로 모아 전달</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img imgFill">
+                        <img src="images/sp04_biz03.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h4>테이터 수집 &amp; 제어</h4>
+                        <p>태양광 현황판(CE인증)</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="img imgFill">
+                        <img src="images/sp04_biz03.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <h4>테이터 수집 &amp; 제어</h4>
+                        <p>태양광 현황판(CE인증)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sp_mod_comview04 section_mg">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">
+                기업전경
+            </h3>
+            <div class="img_wrap">
+                <div class="swiper-wrapper">
+                    <div class="item swiper-slide">
+                        <img src="images/sp04_comview01.png" alt="">
+
+                        <img src="images/sp04_comview02.png" alt="">
+                        <img src="images/sp04_comview03.png" alt="">
+
+
+                        <img src="images/sp04_comview04.png" alt="">
+
+                    </div>
+                    <div class="item swiper-slide">
+                        <img src="images/sp04_comview01.png" alt="">
+
+                        <img src="images/sp04_comview02.png" alt="">
+
+                        <img src="images/sp04_comview03.png" alt="">
+
+                        <img src="images/sp04_comview04.png" alt="">
+
+                    </div>
+                </div>
+                <div class="swiper-pagination">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+    <div class="sp_mod_comMov section_pd">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">
+                미디어
+            </h3>
+            <div class="comMov">
+                <iframe width="1280" height="720" src="https://www.youtube.com/embed/-ko0_ssiayo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+            </div>
+        </div>
+    </div>
+
+    <div class="sp04_mod_product section_pd">
+        <h3 class="b_tit03">주요상품</h3>
+        <div class="product">
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro01.png" alt="">
+                </div>
+                <h4>태양광 모니터링 시스템</h4>
+                <p>태양광 모니터링 시스템은 각 장비의
+                    실시간 데이터를 간편히 확인할 수
+                    있는 프로그램입니다.</p>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro01.png" alt="">
+                </div>
+                <h4>태양광 모니터링 시스템</h4>
+                <p>태양광 모니터링 시스템은 각 장비의
+                    실시간 데이터를 간편히 확인할 수
+                    있는 프로그램입니다.</p>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro02.png" alt="">
+                </div>
+                <h4>SOLEMON ESS</h4>
+                <p>안정적인 에너지의 공급과 에너지 효율 향상을 위한
+                    핵심 솔루션</p>
+                <p>신재생 에너지의 전력품질 개선 및 사업성 향상에
+                    필수적</p>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro03.png" alt="">
+                </div>
+                <h4>실내용 TV 현황판</h4>
+                <p>DY-7000은 각종 입력신호를 받아
+                    디스플레이를 하는 장비입니다.</p>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro01.png" alt="">
+                </div>
+                <h4>태양광 모니터링 시스템</h4>
+                <p>태양광 모니터링 시스템은 각 장비의
+                    실시간 데이터를 간편히 확인할 수
+                    있는 프로그램입니다.</p>
+            </div>
+            <div class="item">
+                <div class="">
+                    <img src="images/sp04_pro01.png" alt="">
+                </div>
+                <h4>태양광 모니터링 시스템</h4>
+                <p>태양광 모니터링 시스템은 각 장비의
+                    실시간 데이터를 간편히 확인할 수
+                    있는 프로그램입니다.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="sp04_vision_wrap section_mg">
+        <div class="new_cnt-container02">
+            <div class="avw">
+                <div class="item mission_area">
+                    <div class="txt missionTxt">
+
+                        <h4>Mission</h4>
+                        <p class="mission">
+                            변화와 혁신
+                        </p>
+                    </div>
+
+                </div>
+                <div class="item vision_area">
+                    <div class="txt visionTxt">
+
+                        <h4>Vision</h4>
+                        <p class="vision">
+                            변화와 혁신
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="item slogan_area">
+                    <div class="txt sloganTxt">
+                        <h4>Slogan</h4>
+                        <p class="slogan">
+                            21세기 기술문화를
+                            선도하는 기업
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="sp04_mod_keyValue section_pd">
+        <div class="new_cnt-container02">
+            <div class="keyValue_wrap">
+                <h3 class="b_tit03">핵심가치</h3>
+                <div class="kv">
+                    <dl class="keyValue">
+                        <dt>Co-work</dt>
+                        <dd>동료는 물론 고객과 함께 가장 최선의 결과를 얻기 위한 상호 협력의 비즈니스</dd>
+                    </dl>
+                    <dl class="keyValue">
+                        <dt>Convergence</dt>
+                        <dd>제품과 트렌드의 융합, 기술과 컨텐츠의 융합</dd>
+                    </dl>
+                    <dl class="keyValue">
+                        <dt>Coexistence</dt>
+                        <dd>탁월한 전문성에 의해 창조되는 고객 감동서비스와 첨단 기술의 공존</dd>
+                    </dl>
+                    <dl class="keyValue">
+                        <dt>Coexistence</dt>
+                        <dd>탁월한 전문성에 의해 창조되는 고객 감동서비스와 첨단 기술의 공존</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="sp04_keyTask_wrap section_pd">
+        <div class="new_cnt-container">
+            <div class="keyTask_wrap">
+                <h3 class="b_tit03">전략과제</h3>
+                <div class="keyTask">
+                    <div class="item">
+                        <h4>‘발전량 예측’과 ‘예지보전 기술’의
+                            고도화를 통해 가격 경쟁력 및 품질과
+                            서비스의 질 최대화</h4>
+                        <p>신속한 소규모(1MW 이하) 태양광발전소 유지관리 시스템으로서
+                            빅데이터 기반의 디지털 트윈을 적용한 ‘태양광 발전량 예측 고도화’와
+                            ‘발전 설비 예지보전 AI학습 서비스’ 플랫폼 사업 전개를 추진
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--직원 수-->
+    <div class="sp04_mod_emp section_pd">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">월 별 입/퇴사자 추이 </h3>
+            <div class="box">
+                <ul id="join_legend"></ul>
+                <div class="join_chart">
+
+                </div>
+                <div class="sequel">
+                    <div>
+                        <p class="left">최근 1년 퇴사자</p>
+                        <p class="right">
+                            <strong>1</strong>명
+                        </p>
+                    </div>
+                    <div>
+                        <p class="left">최근 1년 입사자</p>
+                        <p class="right">
+                            <strong>1</strong>명
+                        </p>
+                    </div>
+                    <div>
+                        <p class="left">총인원</p>
+                        <p class="right">
+                            <strong>52</strong>명
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="chart-container">
+                <div class="base"></div>
+                <!-- Left Side Meter-->
+                <ul class="meter">
+                    <li>
+                        <div>4,300</div>
+                    </li>
+                    <li>
+                        <div>4,100</div>
+                    </li>
+                    <li>
+                        <div>3,900</div>
+                    </li>
+                    <li>
+                        <div>3,700</div>
+                    </li>
+                    <li>
+                        <div>3,500</div>
+                    </li>
+                    <li>
+                        <div>3,200</div>
+                    </li>
+                </ul>
+
+                <div class="bar one" style="height: 70%">
+                    <p>
+                        <strong>3,700</strong>
+                        동종산업군<br>
+                        평균연봉
+                    </p>
+                </div>
+                <div class="bar two" style="height: 100%">
+                    <p>
+                        <strong>4,300</strong>
+                        올해 입사자 연봉
+                    </p>
+                </div>
+            </div>
+
+            <div class="average">
+                <b>평균연봉</b>
+                <p>
+                    <strong>3,950</strong>
+                    만원
+                </p>
+            </div>
+
+
+
+        </div>
+    </div>
+    <!--//직원 수-->
+
+
+    <div class="sp04_mod_finance section_mg">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">재무현황</h3>
+            <div class="tab_warp clearfix">
+                <div class="tab">
+                    <div data-tab="capital" class="on">수익성</div>
+                    <div data-tab="sales" class="">안정성</div>
+                    <div data-tab="profit" class="">성장성</div>
+                </div>
+                <div class="conts">
+                    <div class="capital">
+                        <p>기업의 수익창출 능력을 나타내 주는 비율로서 영업성과에 미치는 종합적인 효과를 보여줍니다.</p>
+                        <div class="flex_wrap">
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">영업<br>
+                                        이익률 <span></span>
+                                        <p>영업이익률</p>
+                                    </a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="up">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend"></ul>
+                                <div id="graph_fiCapital"></div>
+                            </div>
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">당사<br>
+                                        자본이익률 <span></span></a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="down">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend2"></ul>
+                                <div id="graph_fiCapital2"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sales">
+
+                        <p>기업의 수익창출 능력을 나타내 주는 비율로서 영업성과에 미치는 종합적인 효과를 보여줍니다.</p>
+                        <div class="flex_wrap">
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">영업<br>
+                                        이익률 <span></span>
+                                        <p>영업이익률</p>
+                                    </a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="up">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend3"></ul>
+                                <div id="graph_fiSales"></div>
+                            </div>
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">당사<br>
+                                        자본이익률 <span></span></a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="down">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend4"></ul>
+                                <div id="graph_fiSales2"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="profit">
+
+                        <p>기업의 수익창출 능력을 나타내 주는 비율로서 영업성과에 미치는 종합적인 효과를 보여줍니다.</p>
+                        <div class="flex_wrap">
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">영업<br>
+                                        이익률 <span></span>
+                                        <p>영업이익률</p>
+                                    </a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="up">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend5"></ul>
+                                <div id="graph_fiProfit"></div>
+                            </div>
+                            <div class="box">
+                                <div class="dti">
+                                    <a href="javascript:void();">당사<br>
+                                        자본이익률 <span></span></a>
+                                    <div class="right">
+                                        <p>2022년 기준
+                                            <strong>3%</strong>
+                                        </p>
+                                        <p>업종 평균대비
+                                            <strong class="down">13%</strong>
+                                        </p>
+                                    </div>
+                                </div>
+                                <ul id="gf_legend6"></ul>
+                                <div id="graph_fiProfit2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sp04_mod_percent section_mg">
+                <div class="item">
+                    <h4>규모형태</h4>
+                    <div class="pie_wrap">
+                        <div class="piechart" data-percent="60"></div>
+                        <div class="piechart_g" data-percent="75"></div>
+                    </div>
+                    <div class="bt">
+                       <div>
+                        <strong>업종평균</strong><p>60%</p>
+                        </div>
+                        <div>
+                        <strong>당사</strong><p>75%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>수익성</h4>
+                    <div class="pie_wrap">
+                        <div class="piechart" data-percent="60"></div>
+                        <div class="piechart_g" data-percent="75"></div>
+                    </div>
+                    <div class="bt">
+                       <div>
+                        <strong>업종평균</strong><p>60%</p>
+                        </div>
+                        <div>
+                        <strong>당사</strong><p>75%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>성장성</h4>
+                    <div class="pie_wrap">
+                        <div class="piechart" data-percent="60"></div>
+                        <div class="piechart_g" data-percent="75"></div>
+                    </div>
+                    <div class="bt">
+                       <div>
+                        <strong>업종평균</strong><p>60%</p>
+                        </div>
+                        <div>
+                        <strong>당사</strong><p>75%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <h4>안정성</h4>
+                    <div class="pie_wrap">
+                        <div class="piechart" data-percent="60"></div>
+                        <div class="piechart_g" data-percent="75"></div>
+                    </div>
+                    <div class="bt">
+                       <div>
+                        <strong>업종평균</strong><p>60%</p>
+                        </div>
+                        <div>
+                        <strong>당사</strong><p>75%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="sp04_finance_wrap section_pd">
+        <div class="new_cnt-container02">
+           <div class="if_wrap">
+           <div class="top">
+               <p><strong>34</strong>%</p>
+               <p>상위</p>
+           </div>
+            <ul class="info_wrap">
+                
+                <li>
+                    <span class="ico">
+
+                        <img src="images/sp04_fin_ico01.png" alt="차트 아이콘">
+                    </span>
+                    <p class="cnt">
+                        <span class="fiSales">000,000,000</span>
+                    </p>
+                    <p class="tit">매출액(3년 평균)</p>
+                </li>
+                <li>
+                    <span class="ico">
+                        <img src="images/sp04_fin_ico02.png" alt="사람 아이콘">
+                    </span>
+                    <p class="cnt">
+                        <span class="fiProfit">000</span>명 재직
+                    </p>
+
+                    <p class="tit">직원 수 <br class="mShow"></p>
+                </li>
+                <li>
+                    <span class="ico">
+                        <img src="images/sp04_fin_ico03.png" alt="건물 아이콘">
+                    </span>
+                    <p class="cnt">
+                        <span class="contype">중소기업</span>
+                    </p>
+
+                    <p class="tit">기업형태</p>
+                </li>
+                
+            </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="sp04_mod_swot section_mg">
+        <div class="new_cnt-container">
+            <h3 class="sp_tit">SWOT</h3>
+            <div class="swot_wrap">
+			<div class="swotS">
+				<div class="txt">
+					<div class="tit">Strengths</div>
+					<div class="desc">국내 스마트 IoT허브 디바이스 시장점유율 1위
+					</div>
+				</div>
+				<p class="opb">S</p>
+			</div>
+			<div class="swotW">
+				<div class="txt">
+					<div class="tit">weakenesses</div>
+					<div class="desc">코로나19 여파로 인한 서비스 위축
+					</div>
+				</div>
+				<p class="opb">W</p>
+			</div>
+			<div class="swotO">
+				<div class="txt">
+					<div class="tit">opportunities</div>
+					<div class="desc">의료용 허브 디바이스 신규 개발을 통한 해외시장 개척
+					</div>
+				</div>
+				<p class="opb">O</p>
+			</div>
+			<div class="swotT">
+				<div class="txt">
+					<div class="tit">threats</div>
+					<div class="desc">자본력 한계에 따른 안정적인 투자 여력 미흡
+					</div>
+				</div>
+				<p class="opb">T</p>
+			</div>
+		</div>
+        </div>
+    </div>
+    
+    
+    <div class="sp04_mod_culture section_pd" id="welfare">
+            <h3 class="b_tit03">복리후생</h3>
+            <div class="culwel_wrap">
+                <div class="item">
+                    <div class="ico">
+                        <img src="images/sp04_cult01.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            안정된 생활지원
+                        </div>
+                        <p class="desc">각종 경조사지원
+                        </p>
+                        <p class="desc">단체 상해보험
+                        </p>
+                        <p class="desc">업무활동비 지급
+                        </p>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="ico">
+                        <img src="images/sp04_cult02.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            다양한 근무제도
+                        </div>
+                        <p class="desc">탄력근무제</p>
+                        <p class="desc">주 40시간제 시행</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="ico">
+                        <img src="images/sp04_cult03.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            최선의 환경
+                        </div>
+                        <p class="desc">휴게실</p>
+                        <p class="desc">수면실</p>
+                        <p class="desc">카페테리아</p>
+                        <p class="desc">전용 사옥</p>
+                        <p class="desc">사내 정원 등</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="ico">
+                        <img src="images/sp04_cult04.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            열정에 보답
+                        </div>
+                        <p class="desc">퇴직연금</p>
+                        <p class="desc">상여금</p>
+                        <p class="desc">우수사원포상</p>
+                        <p class="desc">야근수당</p>
+                        <p class="desc">휴일(특근)수당</p>
+                        <p class="desc">4대보험</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="ico">
+                        <img src="images/sp04_cult05.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            자기계발 존중
+
+                        </div>
+                        <p class="desc">워크샵</p>
+                        <p class="desc">사우회(경조사회)</p>
+                    </div>
+                </div>
+                <div class="item">
+                   <div class="ico">
+                        <img src="images/sp04_cult06.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <div class="title">
+                            직원중심 조직문화</div>
+                        <p class="desc">회식강요 안함 </p>
+                        <p class="desc">야근강요 안함</p>
+                        <p class="desc">자율복장</p>
+                        <p class="desc">자유로운 연차사용</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+    
+    <div class="sp04_mod_talent section_pd">
+        <div class="new_cnt-container02">
+           <div class="tw">
+            <h3 class="b_tit03">
+                인재상
+            </h3>
+            <div class="talent_wrap">
+                <div class="item">
+                    <div class="img">
+                        <img src="images/sp04_tal01.png" alt="">
+                    </div>
+                    <dl class="txt">
+                        <dt>끝없는 도전</dt>
+                        <dd>내일과 미래를 향한 끝없는 도전을 하는 인재</dd>
+                    </dl>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/sp04_tal02.png" alt="">
+                    </div>
+                    <dl class="txt">
+                        <dt>함께</dt>
+                        <dd>함께 움직이고 함께 노력하는 인재</dd>
+                    </dl>
+                </div>
+                <div class="item">
+                    <div class="img">
+                        <img src="images/sp04_tal03.png" alt="">
+                    </div>
+                    <dl class="txt">
+                        <dt>성실</dt>
+                        <dd>근면, 성실하게 장기적으로 근무 </dd>
+                    </dl>
+                </div>
+            </div>
+            
+            </div>
+        </div>
+    </div>
+    
+    
+    <div class="sp04_mod_content section_mg">
+        <div class="new_cnt-container02">
+            <h3 class="b_tit03">입사에 유용한 정보</h3>
+                <div class="list">
+                    <div class="item">
+                        <p class="q">
+                           <strong>Q</strong>
+                            <span>근무환경</span>은 어떤가요?
+                        </p>
+                        <p class="desc">
+                        <strong>A</strong>
+                        내근 및 외근은 직무에 따라 다르며, 복장은 자율복장입니다.
+직원들의 만족도를 위해 상여금 or 성과급을 지급하고 있으며, 야근 및 회식을 강요하지 않는 조직문화를 가지고 있습니다.</p>
+                    </div>
+                    <div class="item">
+                        <p class="q">
+                           <strong>Q</strong>
+                            <span>근무지역</span>은 어디인가요?
+                        </p>
+                        <p class="desc">
+                        <strong>A</strong>당사는  경기도 광명시에 위치하고 있으며, 지하철역 기준 서울 1호선 광명역에서 800m이내에 위치하고 있습니다.</p>
+                    </div>
+                    <div class="item">
+                        <p class="q">
+                           <strong>Q</strong>
+                            <span>입사시 우대하는 자격</span>이 있을까요?
+                        </p>
+                        <p class="desc">
+                        <strong>A</strong>채용하는 각 직무마다 상이하지만, 해당 분야 전공자를 우대합니다. 또한, 해당 분야 관련 자격증 소지자를우대합니다.
+ 영업 및 엔지니어 직군의 경우 현장 출근 및 운전 가능자를 우대합니다.</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+    
+    
+    <div class="sp04_mod_process section_pd">
+        <div class="new_cnt-container">
+            <h3 class="b_tit03">채용 프로세스</h3>
+            <div class="process">
+                <div class="item">
+                    <div class="ico">
+                        <img src="images/sp04_process_ico01.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <strong>STEP01</strong>
+                        <h4>1차 서류전형</h4>
+                        <p>온라인으로 제출한 지원서를 통해 지원자의 직무에 대한 관심과 역량, 대연C&amp;I에 대한 열정을 확인합니다.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ico">
+                        <img src="images/sp04_process_ico02.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <strong>STEP02</strong>
+                        <h4>면접전형</h4>
+                        <p>다양한 면접 전형(PT발표, AI 역량 검사, BEI 등)과 인적성 검사를 통해 지원자의 역량 및 해당 직무의 적합도 등을 확인합
+니다.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ico">
+                        <img src="images/sp04_process_ico03.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <strong>STEP03</strong>
+                        <h4>합격자 발표</h4>
+                        <p>채용 건강검진 후, 지원자의 역량, 직무 적합성, 평가결과 등을 종합고려하여 합격자를 발표합니다.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="ico">
+                        <img src="images/sp04_process_ico04.png" alt="">
+                    </div>
+                    <div class="txt">
+                        <strong>STEP03</strong>
+                        <h4>합격</h4>
+                        <p>최종 합격 및 입사가 결정됩니다.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="sp02_mod_strategy">
+        <div class="guide section_pd">
+            <div class="new_cnt-container02">
+                <h3 class="sp_tit03">자소서 문항별 가이드</h3>
+                <div class="guide_wrap">
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/sp02_stt.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <div class="q">성장배경에 대해서 기술해주세요.</div>
+                            <div class="a">지원자의 성품과 가치관에 대해서 알고자 하는 항목입니다. 자신의 가치관이 어떤 방식으로 형성되었는지 과정에 대해서 설명하고
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/sp02_stt02.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <div class="q">성장배경에 대해서 기술해주세요.</div>
+                            <div class="a">지원자의 성품과 가치관에 대해서 알고자 하는 항목입니다. 자신의 가치관이 어떤 방식으로 형성되었는지 과정에 대해서 설명하고
+                            </div>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="img">
+                            <img src="images/sp02_stt03.png" alt="">
+                        </div>
+                        <div class="txt">
+                            <div class="q">성장배경에 대해서 기술해주세요.</div>
+                            <div class="a">지원자의 성품과 가치관에 대해서 알고자 하는 항목입니다. 자신의 가치관이 어떤 방식으로 형성되었는지 과정에 대해서 설명하고
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="new_cnt-container02">
+            <div class="recent_question">
+                <div class="rq_cont">
+                    <p class="rq_tit">최근 면접<br> 질문</p>
+                    <div class="rq_text">
+                        <p>주변사람들에게 어떤식의 <strong>평판</strong>을 받고 있습니까?</p>
+                        <p>같이 <strong>일하기 힘든 사람</strong>은 어떤 유형의 사람입니까?</p>
+                    </div>
+                </div>
+            </div>
+            <div class="cont_box">
+                <div class="add_point">
+                    <div class="tit_wrap">
+                        <h3>가산점 요인</h3>
+                    </div>
+                    <ul class="add_point_wrap">
+                        <li>
+                            <strong class="tit">자격증</strong>
+                            <p class="desc">대형운전면허, 지게차 면허, </p>
+                        </li>
+                        <li>
+                            <strong class="tit">봉사활동</strong>
+                            <p class="desc">자원봉사 포털 1365 기준 봉사활동 시간</p>
+                        </li>
+                        <li>
+                            <strong class="tit">봉사활동</strong>
+                            <p class="desc">자원봉사 포털 1365 기준 봉사활동 시간</p>
+                        </li>
+                        <li>
+                            <strong class="tit">봉사활동</strong>
+                            <p class="desc">자원봉사 포털 1365 기준 봉사활동 시간</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="module-wrap edit_wrap com_mod_recruit sty01" id="recruitArea">
+        <a name="recruit"></a>
+        <div class="bg_bot"></div>
+        <div class="new_cnt-container" id="recruitContainer">
+            <h3>채용공고</h3>
+            <table class="tb_recruit otherRecruit" summary="채용공고" style="display: table">
+                <thead>
+                    <tr>
+                        <th scope="col">접수기간</th>
+                        <th scope="col">채용제목</th>
+                        <th scope="col">고용형태</th>
+                    </tr>
+                </thead>
+                <tbody id="otherRecruitList">
+                    <tr>
+                        <td>2021.05.31 까지</td>
+                        <td>풀스택 개발자 채용/경력채용/급여250만원</td>
+                        <td>정규직<a href="javascript:void(0);" class="btn apply">지원하기</a></td>
+                    </tr>
+                    <tr>
+                        <td>상시채용</td>
+                        <td>생산직 지원 채용/경력 무관/급여220만원</td>
+                        <td>계약직<a href="javascript:void(0);" class="btn apply">지원하기</a></td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="box_recruit_wrap swiper">
+                <div class="swiper-wrapper">
+                    <div class="box_recruit swiper-slide">
+                        <h4>
+                            <a href="javascript:;">채용공고명</a>
+                            <span class="period">오늘까지</span>
+                        </h4>
+                        <hr>
+                        <div class="detail_wrap">
+                            <div>
+                                <h5>지원자격</h5>
+                                <dl class="clearfix">
+                                    <dt>경력</dt>
+                                    <dd>경력무관</dd>
+                                    <dt>학력</dt>
+                                    <dd>고졸이상</dd>
+                                    <dt>우대사항</dt>
+                                    <dd>인근거주자, 1종보통운전면허</dd>
+                                </dl>
+                            </div>
+                            <div>
+                                <h5>근무조건</h5>
+                                <dl class="clearfix">
+                                    <dt>고용형태</dt>
+                                    <dd>정규직</dd>
+                                    <dt>급여</dt>
+                                    <dd>220만원 이상</dd>
+                                    <dt>근무지역</dt>
+                                    <dd>경기도 전체</dd>
+                                </dl>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+    <div class="module-wrap edit_wrap com_mod_news sty01">
+        <a name="news"></a>
+        <div class="new_cnt-container">
+            <div id="news_wrap">
+                <div class="news_row">
+                    <a href="javascript:vodi(0);" target="_blank" class="tit">뉴스 제목</a>
+                    <div class="desc">뉴스 내용 뉴스 내용 뉴스 내용 뉴스 내용 뉴스 내용</div>
+                    <div class="reg_date">2021.01.01</div>
+                </div>
+                <div class="news_row">
+                    <a href="javascript:vodi(0);" target="_blank" class="tit">뉴스 제목</a>
+                    <div class="desc">뉴스 내용 뉴스 내용 뉴스 내용 뉴스 내용 뉴스 내용</div>
+                    <div class="reg_date">2021.01.01</div>
+                </div>
+            </div>
+            <div id="paging_wrap" class="paging_wrap">
+                <a href="javascript:void(0);" class="prev disable">이전</a><a href="javascript:void(0);" class="current">1</a><a href="javascript:void(0);">2</a><a href="javascript:void(0);">3</a><a href="javascript:void(0);">4</a><a href="javascript:void(0);">5</a><a href="javascript:void(0);" class="next">다음</a>
+            </div>
+        </div>
+    </div>
+    <div class="module-wrap edit_wrap com_mod_map">
+        <div id="map"></div>
+        <div class="map_info_wrap">
+            <div class="com_info">
+                <div class="comName">기업명</div>
+                <a href="javascript:void(0);" target="_blank" class="find_road">길 찾기</a>
+                <p class="comAddress">주소</p>
+                <p class="tel">전화번호</p>
+            </div>
+            <div class="around_wrap">
+                <ul id="category">
+                    <li id="MT1" data-order="0">
+                        <span class="category_bg mt1"></span>
+                        대형마트
+                    </li>
+                    <li id="CS2" data-order="1">
+                        <span class="category_bg cs2"></span>
+                        편의점
+                    </li>
+                    <li id="AC5" data-order="2">
+                        <span class="category_bg ac5"></span>
+                        학원
+                    </li>
+                    <li id="PK6" data-order="3">
+                        <span class="category_bg pk6"></span>
+                        주차장
+                    </li>
+                    <li id="OL7" data-order="4">
+                        <span class="category_bg ol7"></span>
+                        주유소
+                    </li>
+                    <li id="SW8" data-order="5">
+                        <span class="category_bg sw8"></span>
+                        지하철
+                    </li>
+                    <li id="BK9" data-order="6">
+                        <span class="category_bg bk9"></span>
+                        은행
+                    </li>
+                    <li id="CT1" data-order="7">
+                        <span class="category_bg ct1"></span>
+                        문화시설
+                    </li>
+                    <li id="AT4" data-order="8">
+                        <span class="category_bg at4"></span>
+                        관광명소
+                    </li>
+                    <li id="AD5" data-order="9">
+                        <span class="category_bg ad5"></span>
+                        숙박
+                    </li>
+                    <li id="FD6" data-order="10">
+                        <span class="category_bg fd6"></span>
+                        음식점
+                    </li>
+                    <li id="CE7" data-order="11">
+                        <span class="category_bg ce7"></span>
+                        카페
+                    </li>
+                    <li id="HP8" data-order="12">
+                        <span class="category_bg hp8"></span>
+                        병원
+                    </li>
+                    <li id="PM9" data-order="14">
+                        <span class="category_bg pm9"></span>
+                        약국
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var chart5 = bb.generate({
+            bindto: ".join_chart",
+            data: {
+                type: "bar",
+                columns: [
+                    ["퇴사자", 1550, 1550, 1550],
+                    ["입사자", 2525, 2920, 2767],
+                    ["총 인원수", 2020, 2920, 2767],
+                ],
+                colors: {
+                    "퇴사자": "#d2d2d2",
+                    "입사자": "#293991",
+                    "총 인원수": "#e95354",
+                },
+                types: {
+                    퇴사자: "bar", // for ESM specify as: bar()
+                    입사자: "bar", // for ESM specify as: bar()
+                    '총 인원수': "line", // for ESM specify as: areaSpline()
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v);
+                    }
+                }
+            },
+            padding: {
+                top: 20,
+                left: 0
+            },
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 30
+                },
+                padding: 10,
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#join_legend",
+                    template: "<li><span style='width:25px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR}'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+        $(".tab > div").click(function() {
+            var item = $(this).attr("data-tab");
+            $(".tab > div").removeClass("on");
+            $(this).addClass("on");
+            $(".conts > div").hide();
+            $(".conts > ." + item).show();
+            setTimeout(function() {
+                chart2.resize();
+                chart3.resize();
+                chart4.resize();
+                chart5.resize();
+                chart6.resize();
+                chart7.resize();
+            }, 100);
+        });
+
+        var chart2 = bb.generate({
+            bindto: "#graph_fiCapital",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+        var chart3 = bb.generate({
+            bindto: "#graph_fiCapital2",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend2",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+
+        var chart4 = bb.generate({
+            bindto: "#graph_fiSales",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend3",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+        var chart5 = bb.generate({
+            bindto: "#graph_fiSales2",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend4",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+        var chart6 = bb.generate({
+            bindto: "#graph_fiProfit",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend5",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+
+        var chart7 = bb.generate({
+            bindto: "#graph_fiProfit2",
+            data: {
+                type: "bar",
+                columns: [
+                    ["업종평균", 5, 6, 9],
+                    ["당사", 4, 7, 18],
+                ],
+                colors: {
+                    "업종평균": "#cccccc",
+                    "당사": "#293991",
+                },
+                labels: {
+                    format: function(v, id) {
+                        return Math.abs(v) + '%';
+                    }
+                },
+
+            },
+            padding: {
+                top: 20,
+                right: 20
+            },
+
+            axis: {
+                x: {
+                    type: "category",
+                    categories: ['2020', '2021', '2022'],
+                    padding: {
+                        left: .2,
+                        right: .2
+                    }
+                }
+            },
+            bar: {
+                width: {
+                    max: 25
+                },
+                padding: 10,
+                radius: {
+                    ratio: 0.5
+                }
+            },
+            grid: {
+                x: {
+                    show: false
+                },
+                y: {
+                    show: true
+                }
+            },
+            legend: {
+                contents: {
+                    bindto: "#gf_legend6",
+                    template: "<li><span style='width:30px;height:10px;display:inline-block;margin-right:5px;background:{=COLOR};border-radius:30px'></span>{=TITLE}</li>"
+                }
+            },
+            point: {
+                pattern: [
+                    "<g><circle cx='8' cy='8' r='8'></circle></g>"
+                ]
+            },
+        });
+
+        setTimeout(function() {
+            chart5.resize();
+        }, 100);
+
+    </script>
+
+</body>
+
+</html>
