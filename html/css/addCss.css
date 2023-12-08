@@ -88,7 +88,7 @@
  .sp_mod_talk01 .cont_btn { width: 160px; height: 40px; } 
  
  .sp_mod_talk01 .item .item_top { flex-wrap: wrap; } 
- .sp_mod_talk01 .item .item_top p { margin-top: 1rem; flex: auto; white-space: initial; order: 3; } 
+ .sp_mod_talk01 .item .item_top p { width: 100%; margin-top: 1rem; flex: auto; white-space: initial; order: 3; } 
  .sp_mod_talk01 .item .item_mid { min-height: auto; } 
  .sp_mod_talk01 .item .item_bottom { margin-bottom: 1rem; align-items: flex-start; flex-direction: column; } 
  .sp_mod_talk01 .item .item_bottom .user_info { margin-bottom: 1rem; } 
