@@ -1535,10 +1535,26 @@
                         </ul>
                     </div>
                 </div>
+                <div class="item">
+                    <div class="item_top">
+                        <span class="tag r">후기</span>
+                        <a href="javascript:openModal('modal_03');" class="btn btn_sm btn_style05">삭제</a>
+                    </div>
+                    <div class="item_mid">
+                        <p>회사 분위기도 좋고 교통도 좋아서 출퇴근이 편합니다</p>
+                    </div>
+                    <div class="item_bottom">
+                        <ul class="user_info">
+                            <li>작성자 : <sapn class="user">000</sapn></li>
+                            <li><span class="date">2023.10.30</span></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <a href="javascript:openModal('modal_01');" class="cont_btn">기업톡톡 등록</a>
         </div>
         <!-- 팝업 -->
+        <!-- 기업톡톡 등록 -->
         <div class="popup regn modal_01 w1080">
             <div class="pop_top">
                 <h4>기업톡톡</h4>
@@ -1577,6 +1593,8 @@
                 </div>
             </div>
         </div>
+
+        <!-- 의견(답변)쓰기 -->
         <div class="popup regn modal_02 w1080">
             <div class="pop_top">
                 <h4>기업톡톡</h4>
@@ -1610,6 +1628,7 @@
             </div>
         </div>
 
+        <!-- 삭제 팝업 -->
         <div class="popup modal_03">
             <div class="pop_top">
                 <h4>질문을 삭제 하시겠습니까?</h4>
@@ -1626,6 +1645,7 @@
             </div>
         </div>
 
+        <!-- 기타 팝업 -->
         <div class="popup modal_04">
             <div class="pop_top">
                 <h4>기업에 관련된 질문이나 후기를 등록해 주세요</h4>
@@ -1640,6 +1660,10 @@
                 </div>
             </div>
         </div>
+
+         <!-- //팝업  -->
+
+         <!-- 기업톡톡 추가 script -->
         <script>
             document.addEventListener('DOMContentLoaded', function() {
                 function handleInputEvent(textInput, charCountDiv) {
@@ -1666,51 +1690,18 @@
                 });
             });
 
-            // document.addEventListener('DOMContentLoaded', function() {
-            //     var textInput01 = document.getElementById('input_counter01');
-            //     var charCountDiv01 = document.getElementById('text_counter01');
-            //     var textInput02 = document.getElementById('input_counter02');
-            //     var charCountDiv02 = document.getElementById('text_counter02');
-            //     var textInput03 = document.getElementById('input_counter03');
-            //     var charCountDiv03 = document.getElementById('text_counter03');
-            
-
-            //     textInput01.addEventListener('input', function() {
-            //     var text01 = textInput01.value;
-            //     var textLength01 = this.value.length;
-            //     charCountDiv01.textContent = textLength01;
-            //     });
-            //     textInput02.addEventListener('input', function() {
-            //     var text02 = textInput02.value;
-            //     var textLength02 = this.value.length;
-            //     charCountDiv02.textContent = textLength02;
-            //     });
-            //     textInput03.addEventListener('input', function() {
-            //     var text03 = textInput03.value;
-            //     var textLength03 = this.value.length;
-            //     charCountDiv03.textContent = textLength03;
-            //     });
-            // });
 
             function openModal(modalname) {
                 $("." + modalname).show();
                 $(".shadow").show();
-                var offset = jQuery(document).scrollTop();
-                // jQuery("body").css({
-                //     "position": "fixed",
-                //     "width": "100%",
-                //     "top": -offset
-                // });
             }
             function close_pop() {
                 var $popup = $('.popup:visible');                
                 $popup.hide();
                 $(".shadow").hide();
-                // var offset = jQuery("body").offset().top;
-                // jQuery("html,body").css("position", "static").scrollTop(-offset);
             };
         </script>
-        <!-- //팝업  -->
+       
 
     </div>
 

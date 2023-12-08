@@ -21,6 +21,7 @@
 .sp_mod_talk01 .item .item_top .tag { display: inline-flex; width: 80px; height: 40px; margin-right: 2rem; font-size: 1.8rem; align-items: center; justify-content: center; border-radius: 6px; } 
 .sp_mod_talk01 .item .item_top .tag.q { color: #000; background: #f9f871; } 
 .sp_mod_talk01 .item .item_top .tag.a { color: #fff; background: #f29727; } 
+.sp_mod_talk01 .item .item_top .tag.r { color: #fff; background: #014B71; } 
 .sp_mod_talk01 .item .item_top p { margin-right: 2rem; font-size: 2rem; flex: 1; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; } 
 .sp_mod_talk01 .item .item_top a { margin-left: auto; } 
 .sp_mod_talk01 .item .item_mid { min-height: 100px; margin-bottom: 1rem; } 
