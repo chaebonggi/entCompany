@@ -3,8 +3,8 @@
 .sp_mod_talk01 .talk_box.no_data { background: #f4f4f4; } 
 .sp_mod_talk01 .talk_box.no_data .item { text-align: center; } 
 .sp_mod_talk01 .talk_box.no_data .item p::before { content: ''; display: block; width: 56px; height: 56px; margin: 0 auto 2rem; background: url(../images/no_data.png) no-repeat; } 
-.sp_mod_talk01 .talk_box.no_data .item p { margin-bottom: 4rem; color: #333333; font-size: 2.4rem; word-break: keep-all;} 
-.sp_mod_talk01 .talk_box.no_data .item span { color: #888888; font-size: 1.8rem; word-break: keep-all;} 
+.sp_mod_talk01 .talk_box.no_data .item p { margin-bottom: 4rem; color: #333333; font-size: 2.4rem; word-break: keep-all; } 
+.sp_mod_talk01 .talk_box.no_data .item span { color: #888888; font-size: 1.8rem; word-break: keep-all; } 
 .sp_mod_talk01 .cont_btn { display: flex; width: 180px; height: 50px; margin: 0 auto; color: #fff; font-size: 1.8rem; background: #35add4; border-radius: 10px; align-items: center; justify-content: center; text-align: center; } 
 .sp_mod_talk01 .btn { display: inline-flex; height: 40px; border: 1px solid #dddddd; align-items: center; justify-content: center; border-radius: 6px; box-sizing: border-box; } 
 .sp_mod_talk01 .btn_lg { width: 160px; } 
@@ -54,7 +54,7 @@
 .sp_mod_talk01 .popup.regn .pop_mid .etc li::before { content: '\203B'; position: absolute; top: 1px; left: 0; } 
 .sp_mod_talk01 .popup.regn .pop_mid .text_label { display: flex; margin-bottom: 1rem; align-items: center; } 
 .sp_mod_talk01 .popup.regn .pop_mid .text_label .select_style01 { width: 125px; height: 40px; padding: 0 1rem; margin-right: 1rem; background: url(../images/select_arrow.png) right 10px center no-repeat; color: #000; font-size: 1.6rem; border-radius: 6px; border: 1px solid #dddddd; box-sizing: border-box; outline: none; appearance: none; } 
-.sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count { display: flex; height: 40px; padding: 0 1rem; border-radius: 6px; border: 1px solid #dddddd; align-items: center; flex: 1; box-sizing: border-box;} 
+.sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count { display: flex; height: 40px; padding: 0 1rem; border-radius: 6px; border: 1px solid #dddddd; align-items: center; flex: 1; box-sizing: border-box; } 
 .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count .txt { width: 100%; margin-right: 1rem; color: #000; font-size: 1.6rem; border: none; outline: none; } 
 .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count .txt::placeholder { color: #888888; font-size: 1.6rem; } 
 .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count p { margin-left: auto; color: #cccccc; font-size: 1.4rem; } 
@@ -89,23 +89,14 @@
  
  .sp_mod_talk01 .item .item_top { flex-wrap: wrap; } 
  .sp_mod_talk01 .item .item_top p { margin-top: 1rem; flex: auto; white-space: initial; order: 3; } 
- .sp_mod_talk01 .item .item_bottom { align-items: flex-start; flex-direction: column; } 
+ .sp_mod_talk01 .item .item_mid { min-height: auto; } 
+ .sp_mod_talk01 .item .item_bottom { margin-bottom: 1rem; align-items: flex-start; flex-direction: column; } 
  .sp_mod_talk01 .item .item_bottom .user_info { margin-bottom: 1rem; } 
 
  .sp_mod_talk01 .popup.regn .pop_top { align-items: flex-start; flex-direction: column; } 
- .sp_mod_talk01 .popup.regn .pop_mid .text_label {
-    flex-direction: column;
- }
- .sp_mod_talk01 .popup.regn .pop_mid .text_label .select_style01 {
-    width: 100%;
-    height: 30px;
-    margin: 0 0 1rem
- }
- .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count {
-    width: 100%;
-    height: 30px;
-    flex: auto;
- }
+ .sp_mod_talk01 .popup.regn .pop_mid .text_label { flex-direction: column; } 
+ .sp_mod_talk01 .popup.regn .pop_mid .text_label .select_style01 { width: 100%; height: 30px; margin: 0 0 1rem}
+ .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count { width: 100%; height: 30px; flex: auto; } 
  }
 
 @media all and (max-width:480px) { } 
