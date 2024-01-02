@@ -77,7 +77,6 @@
 .sp_mod_talk01 .popup.regn .pop_mid .text_area { border: 1px solid #7fc3ba; } 
 
 
-@media all and (max-width:768px) { } 
 
 @media all and (max-width:640px){
  .sp_mod_talk01 .item .item_top .tag { width: 50px; height: 30px; } 
@@ -98,5 +97,3 @@
  .sp_mod_talk01 .popup.regn .pop_mid .text_label .select_style01 { width: 100%; height: 30px; margin: 0 0 1rem}
  .sp_mod_talk01 .popup.regn .pop_mid .text_label .text_count { width: 100%; height: 30px; flex: auto; } 
  }
-
-@media all and (max-width:480px) { } 
